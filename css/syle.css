@@ -83,7 +83,7 @@ header, main, footer{
 #gnb>ul>li>a{
     position: relative;
     display: block;
-    font-family: "서울남산체", "나눔고딕";
+    font-family: "HY견고딕";
     font-weight: 600;
     font-size: 16px;
     color: #FF6D00;
@@ -110,7 +110,7 @@ header, main, footer{
 .depth2 a{
     display: block;
     padding: 8px 0;
-    font-family: "서울남산체", "나눔고딕";
+    font-family: "서울한강체", "맑은 고딕";
     font-size: 14px;
     color: #FF6D00;
     text-align: center;
