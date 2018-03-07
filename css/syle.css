@@ -1,0 +1,340 @@
+@charset "utf-8";
+
+#wrap{
+    width: 100%;
+}
+
+header, main, footer{
+    position: relative;
+    width: 100%;
+}
+
+#headerin{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 그림자 효과 */
+}
+
+/* 삼단메뉴버튼, 서치(돋보기) */
+.navi, .search{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+
+.navi{
+    left: 10px;
+}
+
+.search{
+    right: 10px;
+}
+
+.navi>a, .search>a{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.navi span, .search span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.fa-search{
+    font-size: 30px;
+}
+
+/* 로고 */
+.logo{
+    width: 120px;
+    height: 60px;
+}
+
+.logo>a{
+    display: block;
+    width: 120px;
+    height: 60px;
+    background: #ccc;
+}
+
+/* 내비게이션 */
+#gnb{
+    position: fixed;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: beige;
+    z-index: 999;
+}
+
+/* 1단메뉴 */
+#gnb>ul>li>a{
+    position: relative;
+    display: block;
+    font-size: 16px;
+    text-indent: 10px;
+    padding: 10px 0;
+}
+
+#gnb>ul>li>a::after{
+    content: "▼";
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+/* 2단메뉴 */
+.depth2{
+    display: none;
+}
+
+.depth2 a{
+    display: block;
+    padding: 8px 0;
+    font-size: 14px;
+    text-indent: 20px;
+}
+
+/* 서치 */
+#searchbar{
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 50px;
+}
+
+#sch{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    text-indent: 20px;
+    position: relative;
+    top: 5px;
+    background: rgba(225, 225, 225, 0.5);
+}
+
+/* 메인 CSS*/
+#mainvisual{
+    width: 100%;
+    height: 300px;
+}
+
+#mainvisual>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("http://via.placeholder.com/1920x1080") no-repeat center / cover;
+}
+
+.gall1{
+    width: 100%;
+    height: auto;
+    margin-top: 20px; 
+}
+
+.gall1 li{
+    width: 90%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+
+.gall1 a{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.gall1 img{
+    width: 100%;
+    height: auto;
+}
+
+.conts{
+    display: none;
+}
+
+.tit{
+    font-family: "맑은고딕", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    text-indent: 10px;
+    display: block;
+    padding: 5px 0;
+}
+
+.exp{
+    display: block;
+    font-size: 14px;
+    text-indent: 20px;
+    padding: 5px 0;
+}
+
+.btn{
+    position: relative;
+    width: 80px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn>span{
+    display: block;
+    cursor: pointer;
+}
+
+.good{
+    color: olivedrab;
+}
+
+.good.red{
+    color: red;
+}
+
+/* sel box */
+#show2, #show3, #show4, #show5{
+    position: relative;
+    display: none;
+}
+
+#choice, .showpic{
+    width: 90%;
+    height: auto;
+    margin: 20px auto 0 auto;
+}
+
+select{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+
+.showpic img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* 썸네일 */
+#sumimg{
+    width: 90%;
+    height: auto;
+    margin: 40px auto 0 auto;
+}
+
+.sum1, .sum2, .sum3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#sumimg img{
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+#sumimg p{
+    width: 70%;
+    height: auto;
+}
+
+.title{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    text-indent: 10px;
+}
+
+.sum1_exp1, .sum1_exp2, .sum1_exp3{
+    display: block;
+    font-size: 14px;
+    padding-top: 10px;
+    text-indent: 10px;
+}
+
+/* 풋터 */
+footer{
+    width: 100%;
+    height: auto;
+    background: black;
+}
+
+#fnav>ul>li>a{
+    position: relative;
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 0;
+    text-indent: 10px;
+}
+
+#fnav>ul>li>a::after{
+    position: absolute;
+    content: "▼";
+    display: block;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 60%;
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+.fdepth2{
+    display: none;
+}
+
+.fdepth2 li{
+    background: #262626;
+    padding: 10px 0;
+}
+
+.fdepth2 address, .knum,  .cpy{
+    display: block;
+    width: 200px;
+    font-style: normal;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 0;
+    margin-left: 20px;
+}
+
+.flogo{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+
+.flogo>a{
+    display: block;
+    position: relative;
+    top: 50%;
+    width: 80px;
+    height: 40px;
+    background: url("http://via.placeholder.com/80x40") no-repeat;
+    margin: 0 auto;
+    transform:translateY(-50%);
+}
