@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/*CSS Document*/
+
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;    
+    font-size:12px;
+    color: #121212;
+}
+
+
+ul, ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:#121212;
+}
+
+img{
+    border:0;
+    vertical-align: top;
+}
+
+
+#wrap, #container, footer, header{
+    width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

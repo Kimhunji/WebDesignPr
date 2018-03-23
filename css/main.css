@@ -1,0 +1,422 @@
+@charset "utf-8";
+
+/*all mobile code*/
+#mainVisual{
+    margin-top:10px;
+}
+
+#mainVisual .bx-wrapper img{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+#mainVisual .bx-wrapper .bx-prev{
+    background: none;
+}
+
+#mainVisual .bx-wrapper .bx-next{
+    background: none;
+}
+
+#mainbanner{
+    width:90%;
+    height:auto;
+    margin:0 auto;
+    margin-top:-40px;
+}
+
+#mainbanner:after{
+    content:"";
+    display:block;
+    clear:both;
+
+}
+
+#mainbanner p{
+    width:100%;
+    height:50px;
+}
+
+#mainbanner a{
+    display:block;
+    text-align:center;
+    height:50px;
+    font-size:18px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.bn1, .bn2, .bn3, .bn4, .bn5{
+    background: #666;
+    color: #fff;
+}
+
+.bn1:hover, .bn2:hover, .bn3:hover,
+.bn4:hover, .bn5:hover{
+    color: #fff;
+}
+
+.bn1:hover{
+    background: #1e90ff;
+}
+
+.bn2:hover{
+    background: rgb(112, 9, 9);
+}
+
+.bn3:hover{
+    background: #ff0000;
+}
+
+.bn4:hover{
+    background: #1B5E20;
+}
+
+.bn5:hover{
+    background: #001261;
+}
+
+
+.cont1{
+    width:80%;
+    height:auto;
+    margin:0 auto;
+    margin-top:20px;
+}
+
+.cont1>h3{
+    font-size:3vw;
+    text-align: center;
+    padding:10px 0;
+    font-weight: bold;
+}
+
+.title{
+    font-family: "나눔고딕", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.cont1 .fs:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.cont1 .fs>li{
+    float:left;
+    position:relative;
+    overflow: hidden;
+}
+
+.cont1 .fs>li>p{
+    position:absolute;
+    width:100%;
+    height:30%;
+    background: rgba(0,0,0,0.5);
+    bottom:-30%;
+    left:0;
+    transition: all 0.5s ease;
+}
+
+.cont1 .fs>li:hover p{
+    bottom:0;
+}
+
+.cont1 .fs>li>a{
+    display:block;
+}
+
+.cont1 .fs>li:nth-child(1)>a{
+    height:300px;
+    background: url("../img/original.jpg") no-repeat center / cover;
+}
+
+.cont1 .fs>li:nth-child(2)>a{
+    height:140px;
+    background: url("../img/original3.jpg") no-repeat center / cover;
+}
+
+.cont1 .fs>li:nth-child(3)>a{
+    height:140px;
+    background: url("../img/an4.jpg") no-repeat center / cover;
+}
+
+
+.cont1 .fs>li:nth-child(1){
+    width:35%;
+}
+
+.cont1 .fs>li:nth-child(2){
+    width:60%;
+    margin-left:5%;
+}
+
+.cont1 .fs>li:nth-child(3){
+    clear:both;
+    float:right;
+    width:60%;
+    margin-left:5%;
+    margin-top:-140px;
+}
+
+.over{
+    font-weight: bold;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+}
+
+.over:nth-child(2){
+    font-size: 14px;
+}
+
+.cont2{
+    width:250px;
+    height:auto;
+    margin:0 auto;
+    margin-top:30px;
+}
+
+.cont2:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+.cont2_sub1{
+    width:100%;
+    height:auto;
+}
+
+.cont2_sub1>a{
+    display:block;
+    height:154px;
+}
+
+.cont2_sub2{margin-top:20px;}
+
+.cont2_sub2>ul{
+    height:154px;
+}
+
+.cont2_sub2 li{
+    width:100%;
+    height:30px;
+}
+
+.cont2_sub2 li:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.cont2_sub2 .text{
+    float:left;
+    line-height: 30px;
+}
+
+.cont2_sub2 .date{
+    float:right;
+    line-height: 30px;
+}
+
+.gall{
+    width:70%;
+    height:auto;
+    margin:0 auto;
+}
+
+.gall>ul>li>a img{
+    display: block;
+    margin: 0 auto;
+}
+
+.gall>ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gall>ul:after{content:""; display:block; clear:both;}
+
+.gall li{
+    float:left;
+    width:45%;
+    margin-right:10%;
+    margin-bottom:5%;
+}
+
+.gall li:nth-child(2n){
+    margin-right:0;
+}
+
+.gall a{
+    display:block;
+    width:100%;
+    height: 150px;
+}
+
+.gall span{
+    padding:5px 0;
+    display:block;
+}
+
+.brand{
+    font-family: "나눔고딕", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
+
+.choice span{
+    display:inline-block;
+    font-size:11px;
+}
+
+.good:before{
+    content:"";
+    display:block;
+    width:20px;
+    height:20px;
+    float:left;
+    margin-right:3px;
+    background: url("../img/good.png") no-repeat 0 0 / cover;
+}
+.good:after{
+    content:"99";
+}
+.good{
+    line-height: 23px;
+}
+
+
+.gall p{
+        width:100%;
+        height:auto;
+}
+
+.cont3_banner{
+        position:relative;
+        width:100%;
+        height:200px;
+        background: url("../img/ba3.jpg") no-repeat center / cover fixed;
+        margin:30px 0 100px 0;
+}
+
+.cont3_banner>h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+    text-align:center;
+    color:#1B5E20;
+    font-weight: bold;
+}
+
+
+@media all and (min-width:500px){
+    
+    .cont2{
+        width:80%;
+    }
+    
+    .cont2:after{
+        content:"";
+        display:block;
+        clear:both;
+    }
+    
+    .cont2>div{
+        float:left;
+        width:45%;
+    }
+    
+    .cont2>div:nth-child(1){
+        height:200px;
+    }
+    
+    .cont2>div:nth-child(2){
+        margin-left:10%;
+    }
+    
+    .cont2 .cont2_sub2{
+        margin-top:0;
+    }
+    
+    .gall li{
+    float:left;
+    width:30%;
+    margin-right:5%;
+    }
+    
+    .gall li:nth-child(2n){
+    margin-right:5%;
+    }
+    .gall li:nth-child(3n){
+    margin-right:0;
+    }
+    
+    .gall a{
+        height:200px;
+    }
+    
+     .cont3_banner{
+        height:300px;
+    }
+    
+    .cont3_banner>h3{
+    font-size:36px;
+    }
+}
+
+
+
+@media all and (min-width:768px){
+    
+    #mainbanner p{
+        float:left;
+        width:20%;
+    }
+
+}
+
+@media all and (min-width:1024px){
+    
+    .cont1{width:50%;}
+    
+    .cont2{
+        width:50%;
+    }
+    
+    .cont3_banner{
+        width:100%;
+        height:400px;
+        background: url("../img/ba3.jpg") no-repeat center / cover fixed;
+        margin:30px 0 100px 0;
+    }
+    
+    
+    .gall li{
+    float:left;
+    width:20%;
+    }
+
+    .gall li:nth-child(n){
+    margin-right:6.66%;
+    }
+    
+    .gall li:nth-child(4n){
+    margin-right:0;
+    }
+
+    .gall a{
+        height:200px;
+    }
+}
