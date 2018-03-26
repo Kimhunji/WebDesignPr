@@ -231,6 +231,8 @@
 }
 
 .gall>ul>li>a img{
+    width: 150px;
+    height: 150px;
     display: block;
     margin: 0 auto;
 }
@@ -263,6 +265,13 @@
 .gall span{
     padding:5px 0;
     display:block;
+}
+
+.gall_Tit{
+    font-family: "나눔고딕";
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
 }
 
 .brand{
@@ -402,7 +411,6 @@
         margin:30px 0 100px 0;
     }
     
-    
     .gall li{
     float:left;
     width:20%;
@@ -418,5 +426,28 @@
 
     .gall a{
         height:200px;
+    }
+
+    .gall>ul>li>a img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .gall_Tit{
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+    }
+
+    .sub_Tit{
+        text-align: center;
+        position: relative;
+        top: 10px;
+    }
+
+    .money, .choice{
+        text-align: center;
+        position: relative;
+        top: 10px;
     }
 }
